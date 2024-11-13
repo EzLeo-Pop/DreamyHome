@@ -1,0 +1,37 @@
+.nav-info {
+    background-color: #1A1A1A;
+    color: white;
+}
+
+.navbody {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav , .nav-list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+}
+
+.login-btn {
+    display: flex;
+    gap: 20px;
+}
+
+.line-login {
+    width: 3px;
+    height: 30px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(245,207,38,1) 35%, rgba(143,121,22,1) 100%);
+}
+
+.logo-nav img {
+    width: 100px;
+    height: 100px;
+}
